@@ -830,6 +830,76 @@ footer {
     color: #2a2438;
 }
 
+/* --- Benefits Section --- */
+.benefits-section {
+    background-color: var(--light-bg-color); /* A slightly different background */
+    padding: 50px 20px; /* More padding for this section */
+    text-align: center;
+}
+
+.benefits-section h2 {
+    color: var(--primary-color); /* Main heading color */
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+.benefits-section .section-description {
+    max-width: 800px; /* Keep description concise */
+    margin: 0 auto 40px auto;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+    gap: 30px; /* Space between benefit items */
+    max-width: var(--max-content-width); /* Align with main content */
+    margin: 0 auto;
+}
+
+.benefit-item {
+    background-color: #fff; /* White background for each item */
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.benefit-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.benefit-item i {
+    color: var(--secondary-color); /* Icon color */
+    margin-bottom: 20px;
+    font-size: 3em; /* Larger icons */
+    animation: fadeInScale 0.6s ease-out forwards; /* Simple animation */
+    opacity: 0; /* Start hidden for animation */
+    animation-delay: var(--delay-factor, 0s); /* Stagger animation */
+}
+
+/* Stagger animation for each benefit item */
+.benefits-grid .benefit-item:nth-child(1) i { --delay-factor: 0.1s; }
+.benefits-grid .benefit-item:nth-child(2) i { --delay-factor: 0.2s; }
+.benefits-grid .benefit-item:nth-child(3) i { --delay-factor: 0.3s; }
+.benefits-grid .benefit-item:nth-child(4) i { --delay-factor: 0.4s; }
+
+.benefit-item h3 {
+    color: var(--primary-color); /* Title color */
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.benefit-item p {
+    color: var(--text-color); /* Text color */
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
 
 /* Category Grid */
 .category-grid {
