@@ -90,3 +90,21 @@ To set up and run "Discover Yours" locally or contribute to the project, you'll 
 ```bash
 git clone [https://github.com/Deeja-ish/discover-yours.git](https://github.com/Deeja-ish/discover-yours.git)
 cd discover-yours
+
+####  Contributing
+
+
+  We welcome contributions to the "Discover Yours" project! If you're interested in improving the platform, please:
+
+ 1.Fork the repository.
+ 2.Create a new branch (git checkout -b feature/your-feature-name).
+ 3.Commit your changes (git commit -m 'Add new feature').
+ 4.Push to the branch (git push origin feature/your-feature-name).
+ 5.Open a Pull Request, describing your changes in detail.
+
+#### Contact
+
+ For any questions, support, or collaboration inquiries, please reach out to:
+
+ [Khadija ismail Goni] - Project Manager
+ [discover.yours2025@gmail.com] - email Address

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover engaging programs to spark creativity, boost motivation, and support your personal journey. Start your path to self-growth today.">
     <title>Explore Programs - Discover Yours</title>
     <link rel="stylesheet" href="./src/style.css"> 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -15,14 +16,14 @@
     <header>
         <h1>What Will You Explore Today?</h1>
     </header>
-
-     <nav>
+<!-- main nav -->
+    <nav>
         <ul>
             <li><a href="discoveryours.html">Home</a></li>
             <li><a href="AboutUs.html">About</a></li>
             <li><a href="ContactUs.html">Contact</a></li>
             <li><a href="#" class="active">Explore</a></li>
-             <li><a href="community.html">Community</a></li>
+            <li><a href="community.html">Community</a></li>
         </ul>
     </nav>
 
@@ -32,12 +33,13 @@
                 <li><a href="discoveryours.html">Home</a></li>
                 <li aria-current="page">Explore</li>
             </ol>
+        </nav>
         <section id="explore-intro">
             <p>Dive into our curated programs designed to spark your imagination, fuel your passions, and support your journey of self-discovery and growth. 
                 **Choose your path below and unlock a world of possibilities!**</p>
         </section>
 
-        <section class="explore-program" id="hobbies-program">
+        <section class="explore-program" id="hobbies-program"  data-aos="fade-up" data-aos-delay="100">
             <div class="program-header">
                 <img src="images/creativity.png" alt="Illustration representing hobbies and creativity" class="program-icon">
                 <h2>Hobbies & Creative Pursuits</h2>
@@ -67,7 +69,7 @@
             </div>
         </section>
 
-        <section class="explore-program" id="inspiration-program">
+        <section class="explore-program" id="inspiration-program"  data-aos="fade-up" data-aos-delay="200">
             <div class="program-header">
                 <img src="images/new ideas.png" alt="Illustration representing inspiration and new ideas" class="program-icon">
                 <h2>Spark Your Inspiration</h2>
@@ -84,7 +86,7 @@
                 </ul>
             </div>
             <div class="program-actions">
-                <a href="inspiration-hub.html" class="button">Find Your Spark</a>
+                <a href="Inspiration/inspiration-hub.html" class="button">Find Your Spark</a>
                 <div class="resource-links">
                     <h4><i class="fas fa-tools"></i> Tools & Prompts:</h4>
                     <ul>
@@ -97,7 +99,7 @@
             </div>
         </section>
 
-        <section class="explore-program" id="motivation-program">
+        <section class="explore-program" id="motivation-program"  data-aos="fade-up" data-aos-delay="300">
             <div class="program-header">
                 <img src="images/motivation and determination.png" alt="Illustration representing motivation and determination" class="program-icon">
                 <h2>Fuel Your Motivation</h2>
@@ -113,7 +115,7 @@
                 </ul>
             </div>
             <div class="program-actions">
-                <a href="motivation-boost.html" class="button">Boost My Drive</a>
+                <a href="./Motivation/motivation.html" class="button">Boost My Drive</a>
                 <div class="resource-links">
                     <h4><i class="fas fa-external-link-alt"></i> Further Reading:</h4>
                     <ul>
@@ -126,7 +128,7 @@
             </div>
         </section>
 
-        <section class="explore-program" id="success-stories-program">
+        <section class="explore-program" id="success-stories-program"  data-aos="fade-up" data-aos-delay="400">
             <div class="program-header">
                 <img src="images/success and achievement.png" alt="Illustration representing success and achievement" class="program-icon">
                 <h2>Realize Your Potential: Success Stories</h2>
@@ -154,15 +156,43 @@
                 </div>
             </div>
         </section>
-    </main>
 
-   <footer>
+        <section class="explore-program" id="small-business-program"  data-aos="fade-up" data-aos-delay="500">
+            <div class="program-header">
+                <img src="images/small-business.png" alt="Illustration representing a small business or entrepreneurship" class="program-icon"> 
+                <h2>Small Businesses & Entrepreneurship</h2>
+            </div>
+            <p>Ready to turn your passion into profit or launch that idea you've been dreaming about? This section provides essential guides, expert advice, and practical tips for starting, growing, and managing a successful small business.</p>
+            <div class="program-features">
+                <p><strong>What You'll Learn:</strong></p>
+                <ul>
+                    <li><i class="fas fa-lightbulb"></i> Idea Validation & Business Planning</li>
+                    <li><i class="fas fa-chart-bar"></i> Growth Strategies & Marketing</li>
+                    <li><i class="fas fa-coins"></i> Financial Management & Funding</li>
+                </ul>
+            </div>
+            <div class="program-actions">
+                <a href="Business/business-overview.html" class="button">Start Your Business Journey</a>
+                <div class="resource-links">
+                    <h4><i class="fas fa-book"></i> Key Resources:</h4>
+                    <ul>
+                        <li><a href="" target="_blank" rel="noopener noreferrer">Business Plan Templates</a></li>
+                        <li><a href="" target="_blank" rel="noopener noreferrer">Marketing Strategy Guides</a></li>
+                        <li><a href="" target="_blank" rel="noopener noreferrer">Legal & Regulatory Checklists</a></li>
+                        <li><a href="" target="_blank" rel="noopener noreferrer">Funding Options for Startups</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        </main>
+
+    <footer>
         <div class="icons">
             <ul>
-            <li class="icon1"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-            <li class="icon2"><a href="mailto:discover.yours2025@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
-            <li class="icon3"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li class="icon4"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="icon1"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li class="icon2"><a href="mailto:discover.yours2025@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                <li class="icon3"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li class="icon4"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
             </ul>
         </div>
         <p>&copy; 2025 Discover Yours. All rights reserved.</p>
